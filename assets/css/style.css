@@ -1,0 +1,379 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    background-color: #07084C;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+header{
+    /* background-color: #3587A4; */
+    height: 30vh;
+    width: 100%;
+    display: flex; 
+    align-items: center;
+    flex-direction:row-reverse;
+    align-items: flex-start;
+    line-height: 10vh;
+    justify-content: space-between;
+    background-image: url(../img/arco.jpg);
+    background-size: 100%;
+    background-position: center;
+}
+
+header h1{
+    color: #F7E02D;
+    font-size: 5vh;
+    /* background-color: rgba(255, 255, 255, 0.041); */
+}
+
+
+.play{
+    display: flex;
+    margin: 1vh;
+    align-items: center;
+}
+
+nav{
+    font-size: 1.5vh;
+    align-items: center;
+}
+
+nav a{
+    border: 0.2vh solid #9A1D22;
+    text-decoration: none;
+    border-radius: 2vh;
+    margin: 1vh;
+    padding: 1.2vh;
+    color: rgb(255, 255, 255);
+    background-color: #9A1D22;
+}
+
+a[href="#"]{
+    background-color: #3B383D;
+    border-color: #3B383D;
+}
+
+#fotologo{
+    width: 6vw;
+}
+
+#hockey1{
+    width: 25vw;;
+    margin-right: 1vw;
+    border-radius: 20vw;
+}
+
+main{
+    /* background: blue; */
+    font-size: 2.5vh;
+    width: 90%;
+    /* height: 50vh; */
+    margin-left: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.body2{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 4vw;
+    align-items: center;
+}
+
+.body3{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 2vw;
+}
+
+.body4{
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-items: flex-start; */
+}
+
+
+
+.body4 h2{
+    margin-top: 2vw;
+    width: 80%;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+table{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    margin: 4vw;
+    align-items: center;
+}
+.cajaprueba{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
+.ubicaciones iframe{
+    width: 30vw;
+    height: 10vh;
+    margin-bottom: 2vw;
+}
+
+th, td{
+    /* border: solid #9A1D22; */
+    text-align: center;
+    padding: 1vw;
+}
+
+
+
+caption{
+    width: 100%;
+    text-align: start; 
+}
+
+
+.giphy{
+    height: 30vh;
+    width: 40vw;
+    border-style: none;
+}
+
+
+#hockey2{
+    width: 23vw;
+    margin-right: 1vw;
+    border-radius: 20vw;
+}
+
+#hockey3{
+    width: 25vw;
+    margin-right: 3vw;
+    border-radius: 20vw;
+}
+
+
+.play3 h2{
+    color: white;
+    padding: 1.2vh;
+    margin-bottom: 1vw;
+
+}
+
+.play3 h3{
+    color: #9A1D22;
+    border-bottom: 0.2vw solid lightgray;
+}
+
+.play3 p{
+    color: #9A1D22;
+}
+
+.play4 h2{
+    color: white;
+display: none;
+}
+
+.play4{
+    color: #EA4000;
+    padding: 2vw;
+}
+.play4 h3{
+    color: white;
+    border-bottom: 0.2vw solid lightgrey;
+    /* margin-bottom: 1vw; */
+}
+
+.play4 p{
+    margin-bottom: 1vw;
+}
+
+
+.play5{
+    color: white
+
+}
+
+a[href='mailto:mdhl@chihockey.org']{
+    color: #9A1D22;
+}
+
+.body5{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    text-align:justify;
+    margin-top: 2vh;
+}
+
+.body6{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4vh;
+}
+
+.body7{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.body8{
+    color: #9A1D22;
+    display: flex;
+    flex-direction: column;
+}
+
+.rules1{
+    text-align: center;
+    color: white;
+}
+
+.rules2{
+    margin-left: 3vw;
+}
+.rules2 p{
+    text-indent: 1vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+.lista{
+    margin-left: 3vw;
+}
+
+.lista ol{
+    margin-top: 1vw;
+    margin-left: 1vw;
+    list-style-type: decimal;
+}
+.lista ol p{
+    margin-bottom: 1vw;
+}
+
+.lista2 li{
+    margin-bottom: 1vw;
+    list-style-type: lower-alpha;
+
+}
+
+.rules3{
+    margin-left: 3vw;
+}
+.rules3 p{
+    text-indent: 1vw;
+}
+
+ul{
+    margin-left: 4vw;
+}
+.rules3 ul{
+    list-style-type: circle;
+}
+
+
+
+a[href='mailto:michael.randall@chihockey.org']{
+    color: #9A1D22;
+}
+
+aside{
+    /* background: green; */
+    width: 40%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+}
+
+.videoabout{
+    display: none;
+}
+
+video{
+    width: 20vw;
+    border: 0.4vh solid black;
+    align-items: center;
+    /* border-radius: 10vh; */
+    margin-left: 15vw;
+}
+
+
+.mainregis{
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}                           
+
+fieldset{
+    border: none;
+    padding: 1vw;
+    width: 80%;
+}
+
+label, select{
+    margin-left: 1vw;
+    font-size: 1vw;
+}
+
+.l1{
+    text-align: center;
+    font-size: 2vw;
+    margin-top: 1vw;
+    color: #F7E02D;
+    border-bottom: double #F7E02D;
+    margin-bottom: 1vw;
+}
+
+.l2{
+    font-size: 1vw;
+    border-bottom: 0.1vw solid #9A1D22 ;
+    color: #9A1D22;
+}
+
+.l3{
+    font-size: 1vw;
+    border-bottom: 0.1vw solid #9A1D22 ;
+    color: #9A1D22;
+}
+
+.pie{
+    display: flex;
+    justify-content: space-between;
+}
+
+.boton{
+    width: 8vw;
+}
+
+
+
+footer{
+    /* background: yellow; */
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vh;
+    color: lightgray;
+}
